@@ -1,0 +1,37 @@
+.container{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    
+ 
+  }
+  .img{
+    transition: 1s;
+    opacity: 0;
+  }
+  .container:hover .img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: red;
+    text-align: bottom;
+    opacity: 1;
+  }
+  .off{
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 10px;
+    
+  }
+  .tag,.price{
+    color: white;
+ 
+  }
+  p{
+    text-align: center;
+    color: red;
+  }
+  
